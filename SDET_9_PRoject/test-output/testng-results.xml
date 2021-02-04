@@ -1,48 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40652" started-at="2021-02-02T19:30:29Z" finished-at="2021-02-02T19:31:10Z">
+  <suite name="Suite" duration-ms="117279" started-at="2021-02-04T18:24:38Z" finished-at="2021-02-04T18:26:35Z">
     <groups>
       <group name="regressionTest">
-        <method signature="TestCase12.invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="invoice_1" class="com.crm.autodesk.AssignmentTestCase.TestCase12"/>
+        <method signature="TestCase12.invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="invoice_1" class="com.crm.autodesk.AssignmentTestCase.TestCase12"/>
       </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="TestCase13.invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="invoice_1" class="com.crm.autodesk.AssignmentTestCase.TestCase13"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test name="Default test" duration-ms="40652" started-at="2021-02-02T19:30:29Z" finished-at="2021-02-02T19:31:10Z">
+    <test name="Test" duration-ms="117279" started-at="2021-02-04T18:24:38Z" finished-at="2021-02-04T18:26:35Z">
       <class name="com.crm.autodesk.AssignmentTestCase.TestCase12">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configBS" is-config="true" duration-ms="9" started-at="2021-02-02T19:30:29Z" finished-at="2021-02-02T19:30:29Z">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configBS" is-config="true" duration-ms="12" started-at="2021-02-04T18:24:38Z" finished-at="2021-02-04T18:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configBC" is-config="true" duration-ms="6918" started-at="2021-02-02T19:30:30Z" finished-at="2021-02-02T19:30:36Z">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configBC" is-config="true" duration-ms="7530" started-at="2021-02-04T18:24:38Z" finished-at="2021-02-04T18:24:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configBM" is-config="true" duration-ms="2039" started-at="2021-02-02T19:30:37Z" finished-at="2021-02-02T19:30:39Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configBM" is-config="true" duration-ms="2998" started-at="2021-02-04T18:24:46Z" finished-at="2021-02-04T18:24:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="invoice_1" duration-ms="29816" started-at="2021-02-02T19:30:39Z" finished-at="2021-02-02T19:31:08Z">
+        <test-method status="PASS" signature="invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="invoice_1" duration-ms="47923" started-at="2021-02-04T18:24:49Z" finished-at="2021-02-04T18:25:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invoice_1 -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configAM" is-config="true" duration-ms="1041" started-at="2021-02-02T19:31:08Z" finished-at="2021-02-02T19:31:09Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAM" is-config="true" duration-ms="1927" started-at="2021-02-04T18:25:37Z" finished-at="2021-02-04T18:25:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configAC" is-config="true" duration-ms="649" started-at="2021-02-02T19:31:09Z" finished-at="2021-02-02T19:31:10Z">
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAC" is-config="true" duration-ms="724" started-at="2021-02-04T18:25:38Z" finished-at="2021-02-04T18:25:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAT()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configAT" is-config="true" duration-ms="0" started-at="2021-02-02T19:31:10Z" finished-at="2021-02-02T19:31:10Z">
+        <test-method status="PASS" signature="configAT()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAT" is-config="true" duration-ms="0" started-at="2021-02-04T18:26:35Z" finished-at="2021-02-04T18:26:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAT -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@551aa95a]" name="configAS" is-config="true" duration-ms="1" started-at="2021-02-02T19:31:10Z" finished-at="2021-02-02T19:31:10Z">
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase12@35d176f7]" name="configAS" is-config="true" duration-ms="0" started-at="2021-02-04T18:26:36Z" finished-at="2021-02-04T18:26:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- com.crm.autodesk.AssignmentTestCase.TestCase12 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.crm.autodesk.AssignmentTestCase.TestCase13">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configBC" is-config="true" duration-ms="6537" started-at="2021-02-04T18:25:39Z" finished-at="2021-02-04T18:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configBM" is-config="true" duration-ms="3074" started-at="2021-02-04T18:25:46Z" finished-at="2021-02-04T18:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="invoice_1()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="invoice_1" duration-ms="43887" started-at="2021-02-04T18:25:49Z" finished-at="2021-02-04T18:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoice_1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configAM" is-config="true" duration-ms="1707" started-at="2021-02-04T18:26:33Z" finished-at="2021-02-04T18:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.autodesk.AssignmentTestCase.TestCase13@1dfe2924]" name="configAC" is-config="true" duration-ms="700" started-at="2021-02-04T18:26:34Z" finished-at="2021-02-04T18:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.autodesk.AssignmentTestCase.TestCase13 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

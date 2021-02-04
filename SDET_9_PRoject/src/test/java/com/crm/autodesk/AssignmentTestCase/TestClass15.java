@@ -1,6 +1,7 @@
 package com.crm.autodesk.AssignmentTestCase;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.autodesk.genericlib.BaseClass;
@@ -11,7 +12,7 @@ import com.crm.autodesk.objectrrepositorylib.OrganizationInfo;
 import com.crm.autodesk.objectrrepositorylib.Organizations;
 import com.crm.autodesk.objectrrepositorylib.PriceBookInfo;
 import com.crm.autodesk.objectrrepositorylib.ProductInfo;
-
+@Listeners(com.crm.autodesk.genericlib.ListenerIMP.class)
 public class TestClass15 extends BaseClass{
 
 	@Test(groups = "smokeTest")

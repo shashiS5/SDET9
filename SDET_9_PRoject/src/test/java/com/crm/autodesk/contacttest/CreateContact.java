@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.autodesk.genericlib.ExcelUtility;
@@ -33,6 +34,7 @@ import com.crm.autodesk.objectrrepositorylib.Organizations;
  * @author Deepak
  *
  */
+@Listeners(com.crm.autodesk.genericlib.ListenerIMP.class)
 public class CreateContact {
 	/* object  Creation*/
 	JavaUtils jLib = new JavaUtils();
